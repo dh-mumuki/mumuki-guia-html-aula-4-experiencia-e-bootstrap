@@ -1,0 +1,26 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: body
+  inspection: DeclaresTag:nav
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: nav
+  inspection: DeclaresTag:ul
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: ul
+  inspection: DeclaresTag:li
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: li
+  inspection: DeclaresTag:a
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:ul
+  inspection: DeclaresStyle:overflow:hidden
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:li
+  inspection: DeclaresStyle:float:left
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:a
+  inspection: DeclaresStyle:width
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:ul
+  inspection: 'DeclaresStyle:list-style-type: none'
