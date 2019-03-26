@@ -24,3 +24,12 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:ul
   inspection: 'DeclaresStyle:list-style-type: none'
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: a
+  inspection: DeclaresAttribute:href
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:a
+  inspection: DeclaresStyle:display:block
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:a
+  inspection: DeclaresStyle:float:left
