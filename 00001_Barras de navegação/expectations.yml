@@ -20,7 +20,7 @@ expectations:
   inspection: DeclaresStyle:float:left
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:ul
-  inspection: 'DeclaresStyle:list-style-type: none'
+  inspection: DeclaresStyle:list-style-type:none
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: a
   inspection: DeclaresAttribute:href
