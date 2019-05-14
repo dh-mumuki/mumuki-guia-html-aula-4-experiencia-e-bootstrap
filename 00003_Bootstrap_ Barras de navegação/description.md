@@ -4,8 +4,7 @@ Você pode considerar que o Bootstrap já está incluído na solução, assim co
 Sua tarefa será incluir as seguintes classes:
 
 > 1. A classe `container` para a `<div>`
-> 2. A classe `nav` para a classe `navbar-bar` e para a `<ul>`
-> 3. A classe `navbar` para o elemento `<nav>`
+> 2. A classe `navbar` para a `<nav>`
 
 Pronto?
 
